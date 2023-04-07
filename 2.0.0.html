@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的队伍</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontaweso/all.min.css">
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 750px;
+            height: 1000px;
+            margin: 20px auto;
+        }
+        header{
+            width: 750px;
+            height: 120px;
+            background:linear-gradient(to right,rgba(247,123,108,1),rgba(237,58,64,1));
+            display: flex;
+            text-align: center;
+        }
+        header span{
+            margin: auto 0;
+            color: #FFFFFF;
+            font-size: 25px;
+        }
+        main{
+            width: 750px;
+            height: 880px;
+            border: #bbbaba 1px solid;
+            position: relative;
+            right: 15px;
+        }
+        main .img img{
+            width: 638px;
+            height: 148px;
+            background-color: #d2d2d2;
+            margin: 10px auto;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            position: relative;
+            left: 53px;
+        }
+        main .text{
+            width: 638px;
+            height: 40px;
+            background-color: #d2d2d2;
+            margin: 10px auto;
+        }
+        main div i{
+            margin:5px;
+        }
+        main .text img{
+            width: 40px;
+            height: 40px;
+            float: right;
+            border-radius: 50%;
+        }
+        main .text span{
+            float: right;
+            margin-top:5px;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <span class="col-6" >我的队伍</span>
+            <span class="col-6">平台队伍</span>
+        </header>
+        <main>
+            <div class="img"><img src="images/1.jpg" alt=""></div>
+            <div class="text">
+                <i class="fa fa-solid fa-user fa-2x"></i>&nbsp;15位成员
+                <img src="images/左括号_03.jpg" alt="">
+                <img src="images/左括号_03.jpg" alt="">
+                <img src="images/左括号_03.jpg" alt="">
+                <img src="images/左括号_03.jpg" alt="">
+            </div>
+
+            <div class="text">
+                <i class="fa fa-solid fa-user fa-2x"></i>&nbsp;队长
+                <span>北极星</span>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
